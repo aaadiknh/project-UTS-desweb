@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+header {
+    position: relative;
+    width: auto;
+    height: 50%;
+    padding-bottom: 7%;
+    background-image: url('assets/header/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Mengatur latar belakang yang agak transparan */
+    backdrop-filter: blur(10px); /* Efek blur latar belakang */
+}
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 4px 20px;
+}
+#menu ul{
+    padding-right: 8%;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#menu ul li a:hover {
+    color: #4169E1;
+}
+#logo {
+    height: fit-content;
+    padding-left: 8%;
+}
+.detail{
+    padding-top: 8%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.detail h1{
+    font-size: 50px;
+    color: black;
+    padding-left: 8%;
+}
+.detail p{
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+}
+.video{
+    position:absolute;
+    bottom: 0;
+    right: 50px;
+}
+#wrap{
+    margin-top: 5%;
+    padding-top: 3%;
+    margin-right: 8%;
+	margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 1000px;
+    height: 80%;
+}
+#jptk{
+    border-radius: 3%;
+    z-index: -1;
+}
+#profile{
+    list-style: none;
+    padding-right: 3%;
+    padding-left: 3%;
+    z-index: 1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#profile p{
+    font-size: 16px;
+}
+#profile h2{
+    text-decoration: none;
+	font-size: 35px;
+	font-style: bold;
+}
+#wrap2{
+    margin-top: 8%;
+    margin-right: 8%;
+	margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+	width: auto;
+	height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #EDF2F7;
+    width: 1000px;
+    height: 80%;
+}
+section h2 {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 38px;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#visi{
+    list-style: none;
+    padding-left: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#misi{
+    list-style: none;
+    padding-left: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#visi h3 p{
+    font-size: 13px;
+}
+#misi h3 p{
+    font-size: 13px;
+}
+#visi h3{
+    text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+}
+#misi h3{
+    text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+}
+#wrap3{
+    margin-top: 8%;
+    margin-right: 8%;
+	margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+	width: auto;
+	height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #EDF2F7;
+    width: 1000px;
+    height: 80%;
+    margin-bottom: 8%;
+}
+#goals{
+    list-style: none;
+    padding-left: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#goals p{
+    font-size: 13px;
+}
+footer {
+    font-family: Poppins, sans-serif;
+    background-color: #AAC5DC;
+    clear: both;
+    color: white;
+    font-size: 14px;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+}
+#tataLetak {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+.bawahKiri {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    flex: 1;
+}
+.bawahKiri a:hover {
+    color: #4169E1;
+}
+.bawahKiri img {
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+}
+.bawahKiri p{
+    margin-bottom: 2px;  
+}
+.bawahKiri h3, .bawahKiri p {
+    margin-left: 20px;
+}
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+.contact-item p{
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+.contact-item a{
+    text-decoration: none;
+    color: white;
+}
+#logoMaps, #logoTelp, #logoEmail, #logoWeb {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.bawahKananKiri, .bawahKananTengah, .bawahKananKanan {
+    margin: 10px;
+    margin-top: 0;
+}
+.bawahKananKiri p, .bawahKananTengah p{
+    font-size: 14px;
+}
+.bawahKananKiri h3, .bawahKananTengah h3, .bawahKananKanan h3 {
+    font-size: 18px;
+}
+.bawahKananKiri, .bawahKananTengah, .bawahKananKanan{
+    padding-left: 5%;
+}
+.bawahKanan {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+    align-items: start;
+    flex: 2;
+    padding-left: 3%;
+}
+.bawahKananKanan img {
+    width: 170px;
+    height: 250px;
+    align-self: start;
+    padding-left: 3%;
+}
+.bawahKananKiri a, .bawahKananTengah a {
+    color: white;
+    text-decoration: none;
+}
+.bawahKananKiri a:hover, .bawahKananTengah a:hover {
+    color: #4169E1;
+}
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+.social-icons img {
+    width: 38px;
+    height: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#copyright {
+    text-align: center;
+}
+#copyright p{
+    font-size: 14px;
+}
+hr{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 30%; 
+}

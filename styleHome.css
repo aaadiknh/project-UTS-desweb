@@ -1,0 +1,474 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+#latar{
+    margin-top: 9%;
+    background-image: url("assets/header/bg/bg.jpg");
+}
+header {
+    position: relative;
+    width: auto;
+    height: 50%;
+    padding-bottom: 3%;
+    background-image: url('assets/header/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px);
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 4px 20px;
+}
+#menu ul {
+    padding-right: 8%;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#menu ul li a:hover {
+    color: #4169E1;
+}
+#logo {
+    height: fit-content;
+    padding-left: 8%;
+}
+.detail{
+    padding-top: 8%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.detail h1{
+    font-size: 50px;
+    color: black;
+    padding-left: 8%;
+}
+.detail p{
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+}
+.image{
+    position:absolute;
+    bottom: 0;
+    right: 50px;
+
+}
+#kiri{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 230px;
+    height: 80%;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    padding-right: 3%;
+    padding-left: 3%;
+    transition: transform 0.3s;
+}
+#kiri:hover {
+    transform: scale(1.1);
+}
+#desKiri{
+    font-size: 12px;
+}
+#kiri2{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 230px;
+    height: 80%;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    padding-right: 3%;
+    padding-left: 3%;
+    transition: transform 0.3s;
+}
+#kiri2:hover {
+    transform: scale(1.1);
+}
+#desKiri2{
+    font-size: 12px;
+}
+#tengah{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 230px;
+    height: 80%;
+    margin-left: 6%;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    padding-right: 3%;
+    padding-left: 3%;
+    transition: transform 0.3s; 
+}
+#tengah:hover {
+    transform: scale(1.1);
+}
+#desTengah{
+    font-size: 12px;
+}
+#tengah2{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 230px;
+    height: 80%;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    padding-right: 3%;
+    padding-left: 3%;
+    transition: transform 0.3s;
+}
+#tengah2:hover {
+    transform: scale(1.1);
+}
+#desTengah2{
+    font-size: 12px;
+}
+#kanan{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 230px;
+    height: 80%;
+    margin-left: 6%;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    padding-right: 3%;
+    padding-left: 3%;
+    transition: transform 0.3s;
+}
+#kanan:hover {
+    transform: scale(1.1);
+}
+#desKanan{
+    font-size: 12px;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#box > section {
+    margin: 0;
+    width: 120px;
+}
+#kanan2{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    width: 230px;
+    height: 80%;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    padding-right: 3%;
+    padding-left: 3%;
+    transition: transform 0.3s;
+}
+#kanan2:hover {
+    transform: scale(1.1);
+}
+#desKanan2{
+    font-size: 12px;
+}
+#wrap{
+    margin-right: 8%;
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+#wrap2{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: white;
+	width: auto;
+	height: auto;
+}
+.postTitle{
+    margin-top: 4%;
+    margin-bottom: 4%;
+	text-decoration: none;
+	font-size: 30px;
+	font-style: bold;
+}
+.post{
+    font-size: 13px;
+	margin: 0 20px 0 20px;
+	text-align: justify;
+}
+#wrap3{
+    background-image: linear-gradient(to bottom, white, #71BCE1);
+}
+#wrap4{
+    margin-right: 8%;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+#judul3{
+    padding-top: 2%;
+    text-decoration: none;
+	font-size: 18px;
+	font-style: bold;
+}
+#judul4{
+    margin-top: 4%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    text-decoration: none;
+	font-size: 18px;
+	font-style: bold;
+}
+#judul5{
+    padding-top: 3%;
+    margin-bottom: 4%;
+    text-decoration: none;
+	font-size: 18px;
+	font-style: bold;
+}
+#video{
+    padding-top: 2%;
+    margin-left: 9%;
+    margin-right: 8%;
+}
+#logoKiri2{
+    border-radius: 30px;
+    width: 230px;
+    height: 180px;
+}
+#logoTengah2{
+    border-radius: 30px;
+    width: 230px;
+    height: 180px;
+}
+#logoKanan2{
+    border-radius: 30px;
+    width: 230px;
+    height: 180px;
+}
+#judulKiri2{
+    font-size: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start; 
+}
+#judulTengah2{
+    font-size: 10px;
+}
+#judulKanan2{
+    font-size: 10px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+#linkKiri{
+    background:  #71BCE1;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#linkTengah{
+    background:  #71BCE1;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#linkKanan{
+    background:  #71BCE1;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#linkKiri a, #linkTengah a, #linkKanan a{
+    text-decoration: none;
+    color: white;
+}
+#wrap5{ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 8%;
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: white;
+    margin-bottom: 5%;
+}
+
+#skh1, #skh2, #skh3, #skh4, #skh5, #skh6, #skh7, #skh8{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+footer {
+    font-family: Poppins, sans-serif;
+    background-color: #AAC5DC;
+    clear: both;
+    color: white;
+    font-size: 14px;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+}
+#tataLetak {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+.bawahKiri {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    flex: 1;
+}
+.bawahKiri a:hover {
+    color: #4169E1;
+}
+.bawahKiri img {
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+}
+.bawahKiri p{
+    margin-bottom: 2px;  
+}
+.bawahKiri h3, .bawahKiri p {
+    margin-left: 20px;
+}
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+.contact-item p{
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+.contact-item a{
+    text-decoration: none;
+    color: white;
+}
+#logoMaps, #logoTelp, #logoEmail, #logoWeb {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.bawahKananKiri, .bawahKananTengah, .bawahKananKanan {
+    margin: 10px;
+    margin-top: 0;
+}
+.bawahKananKiri p, .bawahKananTengah p{
+    font-size: 14px;
+}
+.bawahKananKiri h3, .bawahKananTengah h3, .bawahKananKanan h3 {
+    font-size: 18px;
+}
+.bawahKananKiri, .bawahKananTengah, .bawahKananKanan{
+    padding-left: 5%;
+}
+.bawahKanan {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+    align-items: start;
+    flex: 2;
+    padding-left: 3%;
+}
+.bawahKananKanan img {
+    width: 170px;
+    height: 250px;
+    align-self: start;
+    padding-left: 3%;
+}
+.bawahKananKiri a, .bawahKananTengah a {
+    color: white;
+    text-decoration: none;
+}
+.bawahKananKiri a:hover, .bawahKananTengah a:hover {
+    color: #4169E1;
+}
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+.social-icons img {
+    width: 38px;
+    height: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#copyright {
+    text-align: center;
+}
+#copyright p{
+    font-size: 14px;
+}
+hr{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 30%; 
+}
